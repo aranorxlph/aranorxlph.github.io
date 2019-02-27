@@ -18,7 +18,7 @@ h2 {
 /**********MAIN PAGE**********/
 #mainpage {
     background-image: url("image.png");
-    background-size: contain;
+    background-size: cover;
 }
 
 #mainLinks {
@@ -55,7 +55,7 @@ a.effect-shine:hover {
 /**********FAMILY**********/
 #family {
     background-image: url("fambg.png");
-    background-size: contain;
+    background-size: cover;
 }
 
 #back {
@@ -82,7 +82,7 @@ a.effect-shine:hover {
 /**********FRIENDS**********/
 #friends {
     background-image: url("frbg.png");
-    background-size: contain;
+    background-size: cover;
 }
 
 #back {
