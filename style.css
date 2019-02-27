@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Gloria+Hallelujah');
+
+body {
+    background-color: #efcec4;
+}
+
+h6 {
+    font-family: 'GLoria Hallelujah', cursive;
+    color: white;
+}
+
+h2 {
+    font-family: 'Abril Fatface', cursive;
+    text-align: center;
+    color: #ff6666;
+}
+
+/**********MAIN PAGE**********/
+#mainpage {
+    background-image: url("image.png");
+    background-size: cover;
+}
+
+#mainLinks {
+    font-size: 2.5em;
+    font-family: 'Abril Fatface', cursive;
+    text-align: center;
+    margin-top: 370px;
+    color: red;
+}
+
+a {
+    color: red;
+}
+
+a.effect-shine:hover {
+    color: #ff6666;
+    -webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 70%);
+    -webkit-mask-size: 200%;
+    animation: shine 2s infinite;
+}
+
+@-webkit-keyframes shine {
+  from {
+    -webkit-mask-position: 150%;
+  }
+  
+  to {
+    -webkit-mask-position: -50%;
+  }
+}
+
+
+
+/**********FAMILY**********/
+#family {
+    background-image: url("fambg.png");
+    background-size: cover;
+}
+
+#back {
+    margin-top: 2em;
+    width: 10px;
+    height: 80px;
+    background-image: url("backbutton.jpg");
+    -webkit-transition: width 2s;
+    transition: width 2s;
+}
+
+#back:hover {
+    width: 110px;
+}
+
+#fam {
+    margin-top: 9.5em;
+}
+
+#aww {
+    margin-top: 7em;
+}
+
+/**********FRIENDS**********/
+#friends {
+    background-image: url("frbg.png");
+    background-size: cover;
+}
+
+#back {
+    margin-top: 2em;
+    width: 10px;
+    height: 80px;
+    background-image: url("backbutton.jpg");
+    -webkit-transition: width 2s;
+    transition: width 2s;
+}
+
+#back:hover {
+    width: 110px;
+}
+
+#hug {
+    margin-top: 20em;
+}
+
+
+
+
+
+
+
